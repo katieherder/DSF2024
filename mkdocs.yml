@@ -1,11 +1,18 @@
 site_name: FOSS 24 Spring GitHub Website
 site_description: Practice Site Making
 site_author: Katie Herder
-site_url: https://katieherder.github.io/
+site_url: https://katieherder.github.io/DSF2024
 
 # Repository
 repo_name: DSF2024
 repo_url: https://github.com/katieherder/DSF2024
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2023 - 2024'
+
+# Repository
+repo_name: The repository name
+repo_url: The repository URL
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 - 2024'
@@ -92,6 +99,11 @@ markdown_extensions:
     repo: mkdocs-material
 - pymdownx.mark
 - pymdownx.smartsymbols
+- pymdownx.superfences:
+    custom_fences:
+        - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
 - pymdownx.tabbed
 - pymdownx.tasklist:
     custom_checkbox: true
