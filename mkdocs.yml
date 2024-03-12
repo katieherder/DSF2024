@@ -10,14 +10,6 @@ edit_url: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 - 2024'
 
-# Repository
-repo_name: The repository name
-repo_url: The repository URL
-edit_url: edit/main/docs/
-# Copyright
-copyright: 'Copyright &copy; 2023 - 2024'
-
-
 # Configuration
 theme:
     name: material
