@@ -30,3 +30,4 @@ pygments>=2.12
 pymdown-extensions>=9.4
 
 # Requirements for plug
+requests>=2.26
